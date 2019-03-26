@@ -16,11 +16,11 @@ def line(line)
   if line.length == 0;
     puts "The line is currently empty.";
   else;
-    var = "The line is currently: "
+    var = "The line is currently:"
     var2 = ""
     line.each_with_index do |name, index|;
       index_plus_one = index + 1;
-    var2 = var.concat("#{index_plus_one}. #{name} ");
+    var2 = var.concat(" #{index_plus_one}. #{name}");
     end;
     puts var2
     # binding.pry
