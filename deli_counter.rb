@@ -22,8 +22,10 @@ def line(line)
       index_plus_one = index + 1;
     var2 = var.concat("#{index_plus_one}. #{name} ");
     end;
-    binding.pry
+    puts var2
+    # binding.pry
   end;
+
 end;
 
 def take_a_number(line, name)
