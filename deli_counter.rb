@@ -10,6 +10,7 @@
 #     puts "The line is currently: #{katz_deli.join(" ")}";
 #   end;
 # end;
+require "pry"
 
 def line(line)
   if line.length == 0;
